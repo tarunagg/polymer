@@ -1,0 +1,31 @@
+<link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="../polymer/lib/mixins/gesture-event-listeners.html">
+<link rel="import" href="../iron-icon/iron-icon.html">
+
+<dom-module id="icon-toggle">
+
+  <template>
+
+    <style>
+      /* shadow DOM styles go here */
+      :host {
+        display: inline-block;
+      }
+      iron-icon {
+        fill: var(--icon-toggle-color, rgba(0,0,0,0));
+        stroke: var(--icon-toggle-outline-color, currentcolor);
+      }
+      :host([pressed]) iron-icon {
+        fill: var(--icon-toggle-pressed-color, currentcolor);
+      }
+    </style>
+
+    <!-- shadow DOM goes here -->
+    <iron-icon icon="[[toggleIcon]]"></iron-icon>
+  </template>
+
+  <script>
+    
+  </script>
+</dom-module>
+
