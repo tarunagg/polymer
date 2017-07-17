@@ -14,7 +14,7 @@ You'll need to install some command-line tools to manage dependencies and to run
 
 3.  Clone this repo:
 
-        https://github.com/PolymerLabs/polymer-2-first-element.git
+        https://github.com/tarunagg/polymer.git
         
 4.  Change directory to your local repo and install dependencies with `bower`:
 
